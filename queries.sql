@@ -1,4 +1,4 @@
-##-- SQL statement to join dim_customers with dim_geography to enrich customer data with geographic information
+-- SQL statement to join dim_customers with dim_geography to enrich customer data with geographic information
 
 SELECT 
     c.CustomerID,  -- Selects the unique identifier for each customer
@@ -19,7 +19,7 @@ ON
 
 
 
-## -- SQL Query to categorize products based on their price
+-- SQL Query to categorize products based on their price
 
 SELECT 
     ProductID,  -- Selects the unique identifier for each product
@@ -38,7 +38,7 @@ FROM
 
 
 
-##-- Query to clean whitespace issues in the ReviewText column
+-- Query to clean whitespace issues in the ReviewText column
 
 SELECT 
     ReviewID,  -- Selects the unique identifier for each review
